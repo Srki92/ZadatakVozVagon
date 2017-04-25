@@ -30,8 +30,7 @@ public class Voz {
 
  }
 
- public Voz(int id,String naziv,String oznaka){
-     this.id = id;
+ public Voz(String naziv,String oznaka){
      this.naziv = naziv;
      this.oznaka = oznaka;
  }
@@ -44,8 +43,11 @@ public class Voz {
  public void setOznaka(String oznaka) {this.oznaka = oznaka;}
  public void setNaziv(String naziv) {this.naziv = naziv;}
 
+    public void setVagon(ForeignCollection<Vagon> vagon) {
+        this.vagon = vagon;
+    }
 
- public static final String POLJE_OZNAKA = "oznaka";
+    public static final String POLJE_OZNAKA = "oznaka";
  public static final String POLJE_NAZIV = "naziv";
 
 

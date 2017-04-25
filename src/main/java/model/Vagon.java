@@ -53,6 +53,9 @@ public class Vagon {
     public void setNosivost(double nosivost) {this.nosivost = nosivost;}
     public void setTeret(double teret) {this.teret = teret;}
 
+    public void setVoz(Voz voz) {
+        this.voz = voz;
+    }
 
     public static final String POLJE_OZNAKA = "oznaka";
     public static final String POLJE_OPIS = "opis";
