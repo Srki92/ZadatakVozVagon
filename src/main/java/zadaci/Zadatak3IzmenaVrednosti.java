@@ -45,7 +45,7 @@ public class Zadatak3IzmenaVrednosti {
                 for(Vagon va:vagon)
                     System.out.println("Vagon = " + va);
 
-            
+
 
         } catch (SQLException e) {
             e.printStackTrace();
