@@ -10,6 +10,10 @@ import com.j256.ormlite.table.DatabaseTable;
 @DatabaseTable(tableName = "vagon")
 public class Vagon {
 
+
+    public static Integer trenutnaTezina = 0;
+
+
     @DatabaseField(generatedId = true)
     private int id;
 

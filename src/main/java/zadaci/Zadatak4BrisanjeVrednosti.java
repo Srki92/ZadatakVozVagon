@@ -41,7 +41,6 @@ public class Zadatak4BrisanjeVrednosti {
 
 
 
-            
 
 
         } catch (SQLException e) {
